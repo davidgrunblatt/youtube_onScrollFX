@@ -1,0 +1,37 @@
+
+.opacityTransition {
+    transition-property: opacity;
+    transition-duration: 1s; 
+}
+
+.opacityBefore {
+    opacity: 0; 
+}
+
+.opacityAfter {
+    opacity: 1; 
+}
+
+/* SLIDE IN */
+
+.slideTransition {
+    position: relative;
+    transition-property: left, right;
+    transition-duration: 1s; 
+}
+
+.slideLeftBefore {
+    right: 1000px; 
+}
+
+.slideLeftAfter {
+    right: 0px;
+}
+
+.slideRightBefore {
+    left: 1000px;
+}
+
+.slideRightAfter {
+    left: 0px;
+}
