@@ -86,7 +86,8 @@ header {
 /* ABOUT SECTION */ 
 
 .about {
-    @include styles(flexColumn); 
+    @include flexbox(flex, center, center, auto, wrap); 
+    // @include styles(flexColumn); 
     // @include styles(random); 
     width: 100%;     
     line-height: 1.5;                           
