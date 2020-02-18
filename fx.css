@@ -1,4 +1,21 @@
 
+
+.bodyTransition {
+    transition-property: opacity;
+    transition-duration: 1s;
+}
+
+.bodyOpacityBefore {
+    opacity: 0;
+}
+
+.bodyOpacityAfter {
+    opacity: 1;
+}
+
+
+
+
 .opacityTransition {
     transition-property: opacity;
     transition-duration: 1s; 

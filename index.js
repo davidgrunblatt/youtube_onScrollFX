@@ -10,7 +10,6 @@ const two = document.querySelector('#two');
 const three = document.querySelector('#three');
 
 const scrollFunk = () => {
-    console.log(window.scrollY); 
     if(document.documentElement.scrollTop >= 200){
         one.classList.toggle('opacityBefore');
         one.classList.add('opacityAfter'); 
